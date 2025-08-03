@@ -1,10 +1,12 @@
 {
-  "short_name": "React App",
+  "id": "/",
   "name": "Create React App Sample",
+  "short_name": "Movies",
+  "description": "An app to browse and explore movies.",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
@@ -16,6 +18,19 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "loader.png",
+      "sizes": "338x149",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
